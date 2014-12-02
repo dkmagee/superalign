@@ -1236,7 +1236,7 @@ extern void OutputOffsets(int NExp, StarCatRec *PStarCatPropN,
     StarCatRec *PStarCatProp;
     
     PStarCatProp = &PStarCatPropN[I];
-    fprintf(fout,"%s %.2f %.2f %.3f\n",PStarCatProp->FN,
+	fprintf(fout,"%s %.4f %.4f %.5f\n",PStarCatProp->FN,
 	    PStarCatProp->HDR_DX,PStarCatProp->HDR_DY,
 	    PStarCatProp->HDR_ROT);
   }
