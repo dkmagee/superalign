@@ -1370,6 +1370,7 @@ extern void CentralCommand(AllExposureRec *PAllExposureProp,
 	NumN++;
 	RemoveStarCatProp(PStarCatPropO,Wh,&NumO);
       }
+	  exit(1);
     }
   }
   FixPointings(NPoint,PPointingProp0,PStarCatPropN);
