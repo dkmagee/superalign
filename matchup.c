@@ -3,6 +3,9 @@
 #include "arrays.h"
 #include <math.h>
 
+extern char *strsub(char *STR1, char *Str, int Index, int Length);
+void	freeFloatArray(float **f, int N1, int N2);
+
 typedef struct {
   int **NBin,***Index;
   int DimX,DimY;

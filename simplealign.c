@@ -7,6 +7,7 @@
 #include "superalign.h"
 
 void hpsort(long n, float *ra, int *ind);
+void	freeFloatArray(float **f, int N1, int N2);
 
 typedef enum {
   TakeBound, Warning
